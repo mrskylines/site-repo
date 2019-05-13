@@ -183,8 +183,7 @@ input, select, textarea {
 		font-style: italic;
 	}
 
-	p i{
-		font-style: italic;
+	p {
 		/*margin: 0 0 2rem 0;*/
 	}
 
