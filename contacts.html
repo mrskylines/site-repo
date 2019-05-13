@@ -15,17 +15,18 @@
 	<body class="is-preload">
 
 		<!-- Header -->
-			<header id="header">
-				<h1>GelCar</h1>
-				<nav>
-					<ul>
-						<li><a href="index.html">Главная</a></li>
-						<li><a href="prices.html">Тарифы</a></li>
-						<li><a href="services.html">Услуги</a></li>
-						<li><a href="contacts.html">Контакты</a></li>
-					</ul>
-				</nav>
-			</header>
+				<header id="header">
+					<h1>GelCar</h1>
+					<div class="topnav" id="myTopnav">
+						<a href="index.html">Главная</a>
+							<a href="prices.html">Тарифы</a>
+							<a href="services.html">Услуги</a>
+							<a href="contacts.html">Контакты</a>
+							<a href="javascript:void(0);" class="icon" onclick="myFunction()">
+							    <i class="fa fa-bars"></i>
+							  </a>
+					</div>
+				</header>
 
 		<!-- Wrapper -->
 			<div id="wrapper" class="divided">
@@ -65,6 +66,17 @@
 			<script src="assets/js/breakpoints.min.js"></script>
 			<script src="assets/js/util.js"></script>
 			<script src="assets/js/main.js"></script>
+
+			<script>
+			function myFunction() {
+			    var x = document.getElementById("myTopnav");
+			    if (x.className === "topnav") {
+			        x.className += " responsive";
+			    } else {
+			        x.className = "topnav";
+			    }
+			}
+			</script>
 
 	</body>
 </html>

@@ -8594,100 +8594,158 @@ input, select, textarea {
 
 			/* Header */
 
-	#header {
-		position: fixed;
-		z-index: 10000;
-		left: 0;
-		top: 0;
-		width: 100%;
-		background: #4acaa8;
-		color: #d2f2e9;
-		height: 3em;
-		line-height: 3em;
-		box-shadow: 0 0 0.15em 0 rgba(0, 0, 0, 0.1);
-	}
-
-		#header h1 {
-			position: absolute;
-			left: 1em;
-			top: 0;
-			height: 3em;
-			line-height: 3em;
-			cursor: default;
-			color: #ffffff;
-		}
-
-			#header h1 a {
-				font-size: 1.25em;
-			}
-
-		#header img {
-			float:left; /* Выравнивание по левому краю */
-    		margin: 7px 7px 7px 0; /* Отступы вокруг картинки *//
-		}
-
-		#header nav {
-			position: absolute;
-			right: 0.5em;
-			top: 0;
-			height: 3em;
-			line-height: 3em;
-		}
-
-			#header nav ul {
-				margin: 0;
-			}
-
-				#header nav ul li {
-					display: inline-block;
-					margin-left: 0.5em;
-					font-size: 0.9em;
-				}
-
-					#header nav ul li a {
-						display: block;
-						color: #ffffff;
-						text-decoration: none;
-						height: 3em;
-						line-height: 3em;
-						padding: 0 0.5em 0 0.5em;
-						outline: 0;
-					}
-
-		@media screen and (max-width: 736px) {
-
 			#header {
-				height: 2.5em;
-				line-height: 2.5em;
+				position: fixed;
+				z-index: 10000;
+				left: 0;
+				top: 0;
+				width: 100%;
+				background: #4acaa8;
+				color: #d2f2e9;
+				height: 3em;
+				line-height: 3em;
+				box-shadow: 0 0 0.15em 0 rgba(0, 0, 0, 0.1);
 			}
 
 				#header h1 {
-					text-align: center;
-					position: relative;
-					left: 0;
+					position: absolute;
+					left: 1em;
 					top: 0;
-					height: 2.5em;
-					line-height: 2.5em;
+					height: 3em;
+					line-height: 3em;
+					cursor: default;
+					color: #ffffff;
 				}
 
 					#header h1 a {
-						font-size: 1em;
+						font-size: 1.25em;
 					}
 
-				#header nav {
-					display: none;
+				#header img {
+					float:left; /* Выравнивание по левому краю */
+		    		margin: 7px 7px 7px 0; /* Отступы вокруг картинки *//
 				}
 
-		}
+				#header nav {
+					position: absolute;
+					right: 0.5em;
+					top: 0;
+					height: 3em;
+					line-height: 3em;
+				}
 
-	body {
-		padding-top: 3em;
-	}
+					#header nav ul {
+						margin: 0;
+					}
 
-		@media screen and (max-width: 736px) {
+						#header nav ul li {
+							display: inline-block;
+							margin-left: 0.5em;
+							font-size: 0.9em;
+						}
+
+							#header nav ul li a {
+								display: block;
+								color: #ffffff;
+								text-decoration: none;
+								height: 3em;
+								line-height: 3em;
+								padding: 0 0.5em 0 0.5em;
+								outline: 0;
+							}
+
+				@media screen and (max-width: 736px) {
+
+					#header {
+						height: 2.5em;
+						line-height: 2.5em;
+					}
+
+						#header h1 {
+							text-align: center;
+							position: relative;
+							left: 0;
+							top: 0;
+							height: 2.5em;
+							line-height: 2.5em;
+						}
+
+							#header h1 a {
+								font-size: 1em;
+							}
+
+						#header nav {
+							display: none;
+						}
+
+				}
 
 			body {
-				padding-top: 2.5em;
+				padding-top: 3em;
 			}
 
-		}
+				@media screen and (max-width: 736px) {
+
+					body {
+						padding-top: 2.5em;
+					}
+
+				}
+
+/* Add a black background color to the top navigation */
+.topnav {
+    background-color: #4acaa8;
+    overflow: hidden;
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+    float: right;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 0px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+/* Add an active class to highlight the current page */
+.active {
+    background-color: #4CAF50;
+    color: white;
+}
+
+/* Hide the link that should open and close the topnav on small screens */
+.topnav .icon {
+    display: none;
+}
+
+/* When the screen is less than 600 pixels wide, hide all links, except for the first one ("Home"). Show the link that contains should open and close the topnav (.icon) */
+@media screen and (max-width: 600px) {
+  .topnav a:not(:first-child) {display: none;}
+  .topnav a.icon {
+    float: right;
+    display: block;
+  }
+}
+
+/* The "responsive" class is added to the topnav with JavaScript when the user clicks on the icon. This class makes the topnav look good on small screens (display the links vertically instead of horizontally) */
+@media screen and (max-width: 600px) {
+  .topnav.responsive {position: relative;}
+  .topnav.responsive a.icon {
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+  .topnav.responsive a {
+    float: none;
+    display: block;
+    text-align: left;
+  }
+}
