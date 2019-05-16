@@ -184,7 +184,6 @@ input, select, textarea {
 	}
 
 	p {
-		font-family: Helvetica, sans-serif;
 		/*margin: 0 0 2rem 0;*/
 	}
 
@@ -208,7 +207,7 @@ input, select, textarea {
 
 	
 	h2 {
-		font-size: 2.25rem;
+		font-size: 2rem;
 	}
 
 	h3 {
@@ -4271,6 +4270,7 @@ input, select, textarea {
 
 		.banner.style5 .content {
 			position: relative;
+			bottom: 4rem;
 			width: 40rem;
 			max-width: 100%;
 			margin-bottom: 2rem;
@@ -4343,7 +4343,27 @@ input, select, textarea {
 				padding: 2.5rem 2rem 0.5rem 2rem ;
 			}
 
+			.banner.style5 .content {
+			max-width: 120%;
+			}
+
 		}
+
+		@media screen and (max-width: 980px) and (orientation: landscape) {
+
+			.banner.style5 .content {
+			bottom: 1.5rem;
+		}
+
+		}
+
+		@media screen and (max-width: 736px) and (orientation: landscape) {
+
+		.banner.style5 .content {
+			bottom: 1.25rem;
+		}
+
+	}
 
 		.banner.style5.fullscreen {
 			min-height: 100vh;
@@ -5012,7 +5032,7 @@ input, select, textarea {
 /* Spotlight (style2) */
 
 	.spotlight.style2 {
-		padding: 7rem 7rem 5rem 7rem ;
+		padding: 2rem 7rem 2rem 7rem ;
 		-moz-align-items: center;
 		-webkit-align-items: center;
 		-ms-align-items: center;
@@ -5048,10 +5068,10 @@ input, select, textarea {
 			-webkit-flex-shrink: 0;
 			-ms-flex-shrink: 0;
 			flex-shrink: 0;
-			width: 21rem;
-			height: 21rem;
+			width: 14rem;
+			height: 14rem;
 			border-radius: 100%;
-			margin: 0 3.5rem 2rem 0;
+			margin: 0 3.5rem 0 0;
 		}
 
 			.spotlight.style2 .image img {
@@ -5072,7 +5092,7 @@ input, select, textarea {
 		@media screen and (max-width: 1680px) {
 
 			.spotlight.style2 {
-				padding: 5rem 5rem 3rem 5rem ;
+				padding: 2rem 5rem 2rem 5rem ;
 			}
 
 		}
@@ -5080,7 +5100,7 @@ input, select, textarea {
 		@media screen and (max-width: 1280px) {
 
 			.spotlight.style2 {
-				padding: 4rem 4rem 2rem 4rem ;
+				padding: 2rem 4rem 2rem 4rem ;
 			}
 
 		}
@@ -5088,7 +5108,7 @@ input, select, textarea {
 		@media screen and (max-width: 980px) {
 
 			.spotlight.style2 {
-				padding: 3.75rem 3rem 1.75rem 3rem ;
+				padding: 1.75rem 3rem 1.75rem 3rem ;
 			}
 
 				.spotlight.style2 .image {
@@ -5101,7 +5121,7 @@ input, select, textarea {
 		@media screen and (max-width: 736px) {
 
 			.spotlight.style2 {
-				padding: 2.5rem 2rem 0.5rem 2rem ;
+				padding: 3rem 2rem 0.5rem 2rem ;
 				-moz-align-items: -moz-flex-start;
 				-webkit-align-items: -webkit-flex-start;
 				-ms-align-items: -ms-flex-start;
@@ -5111,7 +5131,7 @@ input, select, textarea {
 				.spotlight.style2 .image {
 					width: 15.75rem;
 					height: 15.75rem;
-					margin: 0 2rem 2rem 0;
+					margin: 0 2rem 0 0;
 				}
 
 		}
@@ -7204,7 +7224,7 @@ input, select, textarea {
 /* Wrapper (style1) */
 
 	.wrapper.style1 > .inner {
-		padding: 7rem 3.5rem 5rem 3.5rem ;
+		padding: 7rem 3.5rem 0rem 3.5rem ;
 		margin: 0 auto;
 		max-width: 100%;
 		width: 64rem;
@@ -7221,7 +7241,7 @@ input, select, textarea {
 	@media screen and (max-width: 1680px) {
 
 		.wrapper.style1 > .inner {
-			padding: 5rem 2.5rem 3rem 2.5rem ;
+			padding: 5rem 2.5rem 0rem 2.5rem ;
 		}
 
 	}
@@ -7229,7 +7249,7 @@ input, select, textarea {
 	@media screen and (max-width: 1280px) {
 
 		.wrapper.style1 > .inner {
-			padding: 4rem 4rem 2rem 4rem ;
+			padding: 4rem 4rem 0rem 4rem ;
 		}
 
 	}
@@ -7237,7 +7257,7 @@ input, select, textarea {
 	@media screen and (max-width: 980px) {
 
 		.wrapper.style1 > .inner {
-			padding: 4.5rem 3rem 2.5rem 3rem ;
+			padding: 4.5rem 3rem 0rem 3rem ;
 		}
 
 	}
@@ -7245,7 +7265,7 @@ input, select, textarea {
 	@media screen and (max-width: 736px) {
 
 		.wrapper.style1 > .inner {
-			padding: 3rem 2rem 1rem 2rem ;
+			padding: 3rem 2rem 0rem 2rem ;
 		}
 
 	}
@@ -7253,12 +7273,12 @@ input, select, textarea {
 /* Wrapper (style2) */
 
 	.wrapper.style2 {
-		padding: 7rem;
+		padding: 2rem;
 		background-color: #eeeeee;
 	}
 
 		.wrapper.style2 > .inner {
-			padding: 5.25rem 3.5rem 3.25rem 3.5rem ;
+			padding: 0rem 3.5rem 0rem 3.5rem ;
 			background-color: #ffffff;
 			border-radius: 0.5rem;
 			margin: 0 auto;
@@ -7279,11 +7299,11 @@ input, select, textarea {
 		@media screen and (max-width: 1680px) {
 
 			.wrapper.style2 {
-				padding: 5rem;
+				padding: 2rem;
 			}
 
 				.wrapper.style2 > .inner {
-					padding: 3.75rem 2.5rem 1.75rem 2.5rem ;
+					padding: 2rem 2.5rem 1.75rem 2.5rem ;
 				}
 
 		}
@@ -7291,11 +7311,11 @@ input, select, textarea {
 		@media screen and (max-width: 1280px) {
 
 			.wrapper.style2 {
-				padding: 4rem;
+				padding: 2rem;
 			}
 
 				.wrapper.style2 > .inner {
-					padding: 3rem 2rem 1rem 2rem ;
+					padding: 2rem 2rem 1rem 2rem ;
 				}
 
 		}
@@ -7303,11 +7323,11 @@ input, select, textarea {
 		@media screen and (max-width: 980px) {
 
 			.wrapper.style2 {
-				padding: 2.25rem;
+				padding: 2rem;
 			}
 
 				.wrapper.style2 > .inner {
-					padding: 3rem 2.25rem 1rem 2.25rem ;
+					padding: 2rem 2.25rem 1rem 2.25rem ;
 				}
 
 		}
