@@ -4349,6 +4349,18 @@ input, select, textarea {
 
 		}
 
+		@media screen and (max-width: 540px) {
+
+			.banner.style5 {
+				padding: 2.5rem 2rem 0.5rem 2rem ;
+			}
+
+			.banner.style5 .content {
+			max-width: 120%;
+			}
+
+		}
+
 		@media screen and (max-width: 980px) and (orientation: landscape) {
 
 			.banner.style5 .content {
