@@ -4337,7 +4337,7 @@ input, select, textarea {
 
 		}
 
-		@media screen and (max-width: 736px) {
+		@media screen and (min-width: 320px) and (max-width: 736px) {
 
 			.banner.style5 {
 				padding: 2.5rem 2rem 0.5rem 2rem ;
@@ -4346,22 +4346,6 @@ input, select, textarea {
 			.banner.style5 .content {
 			max-width: 120%;
 			}
-
-		}
-
-		@media screen and (max-width: 320px) {
-
-			.banner.style5 {
-				padding: 2.5rem 2rem 0.5rem 2rem ;
-			}
-
-			.banner.style5 .content {
-			max-width: 120%;
-			width: 40rem;
-			}
-
-			.banner.style5 .image {
-			max-width: 120%;
 
 		}
 
