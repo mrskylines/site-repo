@@ -3020,6 +3020,14 @@ input, select, textarea {
 		background-color: transparent;
 	}
 
+	@media screen and (min-width: 320px) and (max-width: 736px) {
+
+			table {
+			width: 120%;
+			}
+
+		}
+
 /* Banner (transitions) */
 
 	.banner.onload-content-fade-up .content {
@@ -4345,10 +4353,6 @@ input, select, textarea {
 
 			.banner.style5 .content {
 			max-width: 120%;
-			}
-
-			.banner.style5 .image {
-			max-width: 80%;
 			}
 
 		}
