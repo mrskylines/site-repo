@@ -3023,7 +3023,8 @@ input, select, textarea {
 	@media screen and (min-width: 320px) and (max-width: 736px) {
 
 			table {
-			width: 80%;
+			margin: 0 0 2rem 2rem;
+			width: 100%;
 			}
 
 		}
