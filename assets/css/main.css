@@ -4356,9 +4356,12 @@ input, select, textarea {
 			}
 
 			.banner.style5 .content {
-			max-width: 130%;
+			max-width: 140%;
 			width: 30rem;
 			}
+
+			.banner.style5 .image {
+			width: 120%;
 
 		}
 
