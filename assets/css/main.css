@@ -4345,7 +4345,11 @@ input, select, textarea {
 			}
 
 			.banner.style5 .content {
-			width: 32rem;
+			max-width: 120%;
+			}
+
+			.banner.style5 .image{
+				width: 32rem;
 			}
 
 		}
