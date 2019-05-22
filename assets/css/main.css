@@ -4338,7 +4338,7 @@ input, select, textarea {
 
 		}
 
-		@media screen and (min-width: 320px) and (max-width: 736px) {
+		@media screen and (min-width: 320px) or (max-width: 736px) {
 
 			.banner.style5 {
 				padding: 2.5rem 2rem 0.5rem 2rem ;
