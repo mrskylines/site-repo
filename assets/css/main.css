@@ -4275,7 +4275,19 @@ input, select, textarea {
 			width: 40rem;
 			margin-bottom: 2rem;
 			z-index: 1;
+			display: inline-flex; /* or flex */
 		}
+
+		.banner.style5 .content ul {
+						margin: 0;
+					}
+
+						.banner.style5 .content ul li {
+							font-size: 1.25rem;
+			color: white;	
+			font-weight: 900;
+			text-shadow: black 2px 3px 4px;
+						}
 
 		.banner.style5 .image {
 			-moz-flex-grow: 0;
